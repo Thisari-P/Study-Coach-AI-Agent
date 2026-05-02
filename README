@@ -30,7 +30,7 @@ streamlit run app.py
 | Tool | Purpose |
 |------|---------|
 | Streamlit | Chat UI |
-| OpenAI GPT-3.5 | Language model |
+| Groq AI | Language model |
 | Session State | In-session memory |
 
 ## Usage

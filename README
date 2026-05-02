@@ -1,0 +1,49 @@
+# 🎓 Study Coach AI Agent
+
+An autonomous AI study coach built with Python, Streamlit, and OpenAI. Upload your notes, get quizzed, and the agent tracks your weak topics and adapts over time.
+
+## Features
+
+- 📚 Paste your own study notes as context
+- ❓ AI generates questions based on your notes
+- ✅ Tracks correct/incorrect answers
+- ⚠️ Remembers weak topics and focuses on them
+- 💬 Natural chat interface
+
+## How to Run
+
+### 1. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Add your API key
+Open `app.py` and replace with your Groq API key.
+
+### 3. Run the app
+```bash
+streamlit run app.py
+```
+
+## Tech Stack
+
+| Tool | Purpose |
+|------|---------|
+| Streamlit | Chat UI |
+| OpenAI GPT-3.5 | Language model |
+| Session State | In-session memory |
+
+## Usage
+
+1. Paste your study notes in the sidebar
+2. Click **Load Notes**
+3. Type `quiz me` in the chat to start
+4. Answer questions and track your score
+
+## 🎬 Demo Video
+
+Watch the full demonstration on YouTube:
+
+[![Study Coach AI Demo]
+
+click here → [YouTube Demo Link](https://www.youtube.com/shorts/q_nPtlPUmPc)
